@@ -37,6 +37,7 @@ namespace Test2
             cmd.ExecuteNonQuery();
             connection.Close();
             Console.WriteLine("Đã xong " + (i - 1));
+            Console.WriteLine("Đã xong " + (i - 1));
 
         }
         public static void getExcelFile()
